@@ -1,0 +1,305 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[10,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Ryan P. O'Donnell}{}
+
+\position{PhD Student}
+\address{Research School of Biology, Australian National University}
+
+\mobile{+61 422 289 005}
+\email{\href{mailto:ryan.odonnell@anu.edu.au}{\nolinkurl{ryan.odonnell@anu.edu.au}}}
+\github{rpodonnell}
+\linkedin{rpodonnell}
+\twitter{rpodonnell\_}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{education}{%
+\section{\texorpdfstring{\faUniversity\acvHeaderIconSep~Education}{~Education}}\label{education}}
+
+\begin{cventries}
+    \cventry{Australian National University}{Doctor of Philosophy (Ecology \& Evolution)}{2022–present}{}{}\vspace{-4.0mm}
+    \cventry{University of New England}{Master of Scientific Studies (Biodiversity Science)}{2019–2021}{}{}\vspace{-4.0mm}
+    \cventry{University of New England}{Graduate Certificate in Science (Biodiversity Science)}{2018–2019}{}{}\vspace{-4.0mm}
+    \cventry{Sydney Conservatorium of Music}{Bachelor of Music (Performance: Classical Voice)}{2014–2017}{}{}\vspace{-4.0mm}
+    \cventry{University of Technology Sydney}{Bachelor of Arts in Communication (Media Arts and Production)}{2011–2013}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{grants}{%
+\section{\texorpdfstring{\faIcon{money-bill-wave}\acvHeaderIconSep~Grants}{~Grants}}\label{grants}}
+
+\begin{cventries}
+    \cventry{Australian National University, Research School of Biology}{RSB Seed Funding Grant}{2022}{\$15,000}{\begin{cvitems}
+\item Evolutionary and population ecology of Pterostylis (Orchidaceae) and their fungal symbionts (Ceratobasidium, Ceratobasidiaceae)
+\end{cvitems}}
+    \cventry{Australian Orchid Foundation}{AOF Research Grant 348/22}{2022}{\$10,000}{\begin{cvitems}
+\item The evolution and diversification of the Australian Diurideae: Understanding the influence of genome size and chromosome number
+\end{cvitems}}
+    \cventry{Australasian Systematic Botany Society}{Hansjörg Eichler Scientific Research Fund}{2022}{\$5,000}{\begin{cvitems}
+\item An integrative taxonomic study of the Pterostylis macrosepala (D.L.Jones) G.N.Backh. complex (Orchidaceae; Pterostylidinae)
+\end{cvitems}}
+    \cventry{University of New England}{N.C.W. Beadle Scholarship in Botany}{2020}{\$1,000}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{awards-scholarships}{%
+\section{\texorpdfstring{\faIcon{award}\acvHeaderIconSep~Awards \&
+Scholarships}{~Awards \& Scholarships}}\label{awards-scholarships}}
+
+\begin{cvhonors}
+    \cvhonor{}{ANU Research School of Biology 3-Minute Thesis (3MT) Competition: People's Choice Award}{}{2022}
+    \cvhonor{}{ANU Research School of Biology 3-Minute Thesis (3MT) Competition: Runner Up Prize}{}{2022}
+    \cvhonor{}{Australian Government Research Training Program Scholarship (2022–2025)}{}{2022}
+    \cvhonor{}{University of New England Vice-Chancellor's Scholar}{}{2021}
+    \cvhonor{}{Berlin Opera Academy Robert Earl White Memorial Scholarship}{}{2017}
+    \cvhonor{}{Berlin Opera Academy Elizabeth Luxon Memorial Scholarship}{}{2017}
+    \cvhonor{}{Pacific Opera Young Artist Scholarship}{}{2017}
+    \cvhonor{}{Estivo European Chamber Music Summer School Scholarship}{}{2016}
+    \cvhonor{}{Best Comedic Film: Tampa Bay Underground Film Festival}{}{2015}
+    \cvhonor{}{Best Short Film: Melbourne Underground Film Festival}{}{2014}
+    \cvhonor{}{Firstdraft Gallery Emerging Writers Residency}{}{2012}
+    \cvhonor{}{University of Sydney Kathleen Garnham Laurence Prize for Fine Arts}{}{2010}
+\end{cvhonors}
+
+\hypertarget{peer-reviewed-publications}{%
+\section{\texorpdfstring{\faIcon{book}\acvHeaderIconSep~Peer-Reviewed
+Publications}{~Peer-Reviewed Publications}}\label{peer-reviewed-publications}}
+
+\textbf{O'Donnell RP}, Bruhl JJ, Telford IR, Wilson TC, Zimmer H,
+Taseski GM, Andrew RL (accepted 2023) Molecular and morphological
+analyses support recognition of \emph{Prostanthera volucris}
+(Lamiaceae), a new species from the Central Tablelands of New South
+Wales. \emph{Australian Systematic Botany}.
+
+\href{https://openjournals.library.sydney.edu.au/index.php/TEL/article/view/15561}{\textbf{O'Donnell
+RP}, Wilson TC, Andrew RL, Telford IR, Taseski GM, Zimmer H, Bruhl JJ
+(2021) Molecular phylogenetic analysis of the \emph{Prostanthera
+phylicifolia} (Lamiaceae) assemblage resolves relationships of the
+'Critically Endangered' \emph{P. gilesii} and other putative new
+species. \emph{Telopea} 24, 359--375. doi:10.7751/telopea15561.}
+
+\hypertarget{preprints}{%
+\section{\texorpdfstring{\faIcon{book-open}\acvHeaderIconSep~Preprints}{~Preprints}}\label{preprints}}
+
+\href{https://doi.org/10.1101/2021.12.21.473648}{\textbf{O'Donnell RP},
+Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL
+(accepted 2023) Molecular and morphological analyses support recognition
+of \emph{Prostanthera volucris} (Lamiaceae), a new species from the
+Central Tablelands of New South Wales.
+doi:doi.org/10.1101/2021.12.21.473648.}
+
+\hypertarget{other-publications}{%
+\section{\texorpdfstring{\faIcon{file-alt}\acvHeaderIconSep~Other
+Publications}{~Other Publications}}\label{other-publications}}
+
+\href{https://asbs.org.au/newsletter/pdf/22-mar-190.pdf}{\textbf{O'Donnell
+RP} (2022) Book Review: Presenting Science Concisely - Bruce Kirchoff.
+Australasian Systematic Botany Society Newsletter. 190: 27--28.}
+
+\href{https://www.sciencewritenow.com/essays-craft-memoir/love-thy-neighbour}{\textbf{O'Donnell
+RP} (2022) \emph{Love Thy Neighbour} Science Write Now \#6: Natural
+History and Historians}
+
+\href{https://www.sciencewritenow.com/essays-craft-memoir/love-thy-neighbour}{\textbf{O'Donnell
+RP} (2021) \emph{Love Thy Neighbour} Boundless Writers Festival 2021}
+
+\href{https://www.asbs.org.au/newsletter/pdf/21-sep-188.pdf}{\textbf{O'Donnell
+RP} (2021) Selling systematics with storytelling: solving taxonomy's
+marketing problem. Australasian Systematic Botany Society Newsletter.
+188: 29--30.}
+
+\href{https://rpodonnell.github.io/cv/JAD_BODY_FLUIDfinal.pdf}{\textbf{O'Donnell
+RP} (2012) \emph{John A Douglas - Body Fluid - The Seven Cycles}
+Exhibition essay - Chalkhorse Gallery}
+
+\href{https://rpodonnell.github.io/cv/JamesOramMomentsofmusthave_RS.pdf}{\textbf{O'Donnell
+RP} (2012) \emph{James Oram - Moments of Must Have} Exhibition essay -
+Chalkhorse Gallery}
+
+\hypertarget{conference-presentations}{%
+\section{\texorpdfstring{\faIcon{users}\acvHeaderIconSep~Conference
+Presentations}{~Conference Presentations}}\label{conference-presentations}}
+
+\textbf{O'Donnell RP}, Wong DJ, Peakall R, Phillips RD, Linde CC (2022)
+``Detangling the Diurideae: Phylogenomics and fungal symbionts provide
+an updated evolutionary framework''. Australasian Evolution Society
+2022, 14-16 December 2022.
+
+\textbf{O'Donnell RP}, Wong DJ, Peakall R, Phillips RD, Linde CC (2022)
+``Detangling the Diurideae: Phylogenomics and fungal symbionts provide
+an updated evolutionary framework''. Australasian Systematic Botany
+Society EMCR Conference 2022, 15-16 November 2022.
+
+\textbf{O'Donnell RP}, Andrew RL, Telford IR, Wilson TC, Zimmer H,
+Taseski GM, Bruhl JJ (2021) ``Morphological and molecular evidence aid
+resolution of \emph{Prostanthera phylicifolia s. l.} (Lamiaceae)''.
+Australasian Systematic Botany Society Annual Conference 2021, 12-16
+July 2021. \emph{Runner up: Pauline Ladiges Prize for best student
+presentation.}
+
+\hypertarget{other-presentations-panels}{%
+\section{\texorpdfstring{\faIcon{microphone-alt}\acvHeaderIconSep~Other
+Presentations \&
+Panels}{~Other Presentations \& Panels}}\label{other-presentations-panels}}
+
+\href{https://www.instagram.com/p/ChLqF9UuGza}{\textbf{Presenter:}
+\emph{`Walks \& Talks: Orchids From Australia \& Abroad'} 13/08/2022}
+
+\href{https://www.facebook.com/CostasWorld/videos/491418699340504/}{\textbf{Presenter:}
+\emph{`Rare Plants - Large and Small' with Costa Georgiadis} 12/05/2021}
+
+\textbf{Panelist:} \emph{Reel Science: Plants - Sydney Science
+Trail/National Science Week} 21/08/2021
+
+\hypertarget{teaching}{%
+\section{\texorpdfstring{\faIcon{chalkboard-teacher}\acvHeaderIconSep~Teaching}{~Teaching}}\label{teaching}}
+
+\hypertarget{australian-national-university}{%
+\subsection{Australian National
+University}\label{australian-national-university}}
+
+\begin{cvhonors}
+    \cvhonor{}{\textbf{BIOL3207/BIOL6207}: Data Science for Biologists}{}{2022 S2}
+    \cvhonor{}{\textbf{BIOL2114/BIOL6114}: Evolution}{}{2022 S2}
+\end{cvhonors}
+
+\hypertarget{media}{%
+\section{\texorpdfstring{\faIcon{tv}\acvHeaderIconSep~Media}{~Media}}\label{media}}
+
+\href{https://soundcloud.app.goo.gl/qHSz4CY8nj2adUtb7}{\textbf{Radio
+Interview:} \emph{ABC Radio Evenings with Christine Anu} 21/8/2021}
+
+\href{https://www.rbgsyd.nsw.gov.au/Science/Branch-Out/Starting-in-Science}{\textbf{Podcast
+Interview:} \emph{Royal Botanic Garden Sydney `Branch Out' Podcast -
+Starting in Science}}
+
+\href{https://rpodonnell.github.io/cv/sylvie_interview_2020.pdf}{\textbf{Interview:}
+\emph{The Music, With Sylvie}}
+
+\href{https://www.facebook.com/UniNewEngland/posts/10158232724220926}{\textbf{Interview:}
+\emph{University of New England, \#StudyLifeUNE}}
+
+\hypertarget{exhibitions}{%
+\section{\texorpdfstring{\faIcon{palette}\acvHeaderIconSep~Exhibitions}{~Exhibitions}}\label{exhibitions}}
+
+2021
+\href{https://www.rbgsyd.nsw.gov.au/Science/Botanical-Illustration/The-Margaret-Flockton-Award-21}{\textbf{The
+Margaret Flockton Award}}
+
+\hypertarget{professional-memberships}{%
+\section{\texorpdfstring{\faIcon{user-plus}\acvHeaderIconSep~Professional
+Memberships}{~Professional Memberships}}\label{professional-memberships}}
+
+2020--present \textbf{Australasian Systematic Botany Society}
+
+
+
+\end{document}
