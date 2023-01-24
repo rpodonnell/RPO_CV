@@ -1,5 +1,6 @@
 ---
-name: Ryan P. O'Donnell
+name: Ryan P. 
+surname: O'Donnell
 date: "`r format(Sys.time(), '%B, %Y')`"
 position: PhD Student
 address: Research School of Biology, Australian National University
@@ -12,7 +13,7 @@ twitter: rpodonnell_
 headcolor: "414141"
 fontawesome: yes
 fontsize: 10
-output: 
+output:
   vitae::awesomecv:
     keep_tex: true
 ---
@@ -29,6 +30,7 @@ library(huxtable)
 library(formatR)
 library(readxl)
 
+#create function to read in excel spreadsheet of cv data
 readExcelSheets <- function(filename){
   # read all sheets in .xlsx 
   all <- readxl::excel_sheets(filename)
@@ -141,4 +143,3 @@ teaching %>%
 
 # \faIcon{user-plus}\acvHeaderIconSep\ Professional Memberships
 2020–present **Australasian Systematic Botany Society**
-
