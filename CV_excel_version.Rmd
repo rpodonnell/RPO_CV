@@ -29,6 +29,7 @@ library(kableExtra)
 library(huxtable)
 library(formatR)
 library(readxl)
+library(glue)
 
 #create function to read in excel spreadsheet of cv data
 readExcelSheets <- function(filename){
@@ -56,6 +57,18 @@ education %>%
     where = year
   )
 ```
+# \faIcon{brain}\acvHeaderIconSep\ Skills
+
+```{r}
+skills_formatted <- skills %>% 
+  group_by(category) %>% 
+  summarize(skills = glue_collapse(skill, sep = " $\\bullet$ "))
+```
+
+```{r}
+skills_formatted %>% 
+  detailed_entries(glue::glue("\\textbf{<category>}: <skills>", .open = "<", .close = ">"),  .protect = FALSE)
+```
 
 # \faIcon{money-bill-wave}\acvHeaderIconSep\ Grants
 ```{r}
@@ -68,11 +81,7 @@ grants %>%
     when = amount
   ) 
 ```
-# \faIcon{award}\acvHeaderIconSep\ Awards & Scholarships
-```{r}
-awards %>% 
-  brief_entries(award, year, .protect = FALSE)
-```
+
 
 # \faIcon{book}\acvHeaderIconSep\ Peer-Reviewed Publications
 
@@ -125,6 +134,12 @@ Society Annual Conference 2021, 12-16 July 2021. *Runner up: Pauline Ladiges Pri
 ```{r teaching}
 teaching %>% 
   brief_entries(glue::glue("\\textbf{<code>}: <title>", .open = "<", .close = ">"), semester, .protect = FALSE)
+```
+
+# \faIcon{award}\acvHeaderIconSep\ Awards & Scholarships
+```{r}
+awards %>% 
+  brief_entries(award, year, .protect = FALSE)
 ```
 
 # \faIcon{tv}\acvHeaderIconSep\ Media
