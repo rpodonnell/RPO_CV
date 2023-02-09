@@ -1,0 +1,161 @@
+---
+name: Ryan P. 
+surname: O'Donnell
+date: "`r format(Sys.time(), '%B, %Y')`"
+position: PhD Student
+address: Research School of Biology, Australian National University
+email: ryan.odonnell@anu.edu.au
+website: rpodonnell.github.io
+github: rpodonnell
+linkedin: rpodonnell
+twitter: rpodonnell_
+headcolor: "414141"
+fontawesome: yes
+fontsize: 10
+output:
+  vitae::awesomecv:
+    keep_tex: true
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(vitae)
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
+library(fontawesome)
+library(kableExtra)
+library(huxtable)
+library(formatR)
+library(readxl)
+library(glue)
+
+#create function to read in excel spreadsheet of cv data
+readExcelSheets <- function(filename){
+  # read all sheets in .xlsx 
+  all <- readxl::excel_sheets(filename)
+  # import each sheet into a list using readxl::read_excel
+  list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x))
+  # save sheet name for each sheet (list)
+  names(list) <- all
+  # breaks up list and creates a dataframe for each sheet with df names matching sheet names
+  list2env(list, envir = .GlobalEnv)
+}
+
+filename <- here::here("RPO_vitae_data.xlsx")
+readExcelSheets(filename)
+```
+
+# \faUniversity\acvHeaderIconSep\ Education
+
+```{r education}
+education %>%
+  detailed_entries(
+    what = institution,
+    with = degree,
+    where = year
+  )
+```
+# \faIcon{brain}\acvHeaderIconSep\ Skills
+
+```{r}
+skills_formatted <- skills %>% 
+  group_by(category) %>% 
+  summarize(skills = glue_collapse(skill, sep = " $\\bullet$ "))
+```
+
+```{r}
+skills_formatted %>% 
+  detailed_entries(glue::glue("\\textbf{<category>}: <skills>", .open = "<", .close = ">"),  .protect = FALSE)
+```
+
+# \faIcon{money-bill-wave}\acvHeaderIconSep\ Grants
+```{r}
+grants %>% 
+  detailed_entries(
+    where = year,
+    with = name, 
+    what = institution,
+    why = supp,
+    when = amount
+  ) 
+```
+
+
+# \faIcon{book}\acvHeaderIconSep\ Peer-Reviewed Publications
+
+[**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. *Australian Systematic Botany* 36, 1:1–20. doi:10.1071/SB22017.](https://doi.org/10.1071/SB22017)
+
+[**O’Donnell RP**, Wilson TC, Andrew RL, Telford IR, Taseski GM, Zimmer H, Bruhl JJ (2021) Molecular phylogenetic analysis of the *Prostanthera phylicifolia* (Lamiaceae) assemblage resolves relationships of the ’Critically Endangered’ *P. gilesii* and other putative new species. *Telopea* 24, 359–375. doi:10.7751/telopea15561.](https://openjournals.library.sydney.edu.au/index.php/TEL/article/view/15561)
+
+# \faIcon{book-open}\acvHeaderIconSep\ Preprints
+
+[**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (accepted 2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. doi:doi.org/10.1101/2021.12.21.473648.](https://doi.org/10.1101/2021.12.21.473648)
+
+# \faIcon{file-alt}\acvHeaderIconSep\ Other Publications
+
+[**O’Donnell RP** (2022) Book Review: Presenting Science Concisely - Bruce Kirchoff. Australasian Systematic Botany Society Newsletter. 190: 27–28.](https://asbs.org.au/newsletter/pdf/22-mar-190.pdf)
+
+[**O’Donnell RP** (2022) *Love Thy Neighbour* Science Write Now #6: Natural History and Historians](https://www.sciencewritenow.com/essays-craft-memoir/love-thy-neighbour)
+
+[**O’Donnell RP** (2021) *Love Thy Neighbour* Boundless Writers Festival 2021](https://www.sciencewritenow.com/essays-craft-memoir/love-thy-neighbour)
+
+[**O’Donnell RP** (2021) Selling systematics with storytelling: solving taxonomy’s marketing problem. Australasian Systematic Botany Society Newsletter. 188: 29–30.](https://www.asbs.org.au/newsletter/pdf/21-sep-188.pdf)
+
+[**O’Donnell RP** (2012) *John A Douglas - Body Fluid - The Seven Cycles* Exhibition essay - Chalkhorse Gallery](https://rpodonnell.github.io/cv/JAD_BODY_FLUIDfinal.pdf)
+
+[**O’Donnell RP** (2012) *James Oram - Moments of Must Have* Exhibition essay - Chalkhorse Gallery](https://rpodonnell.github.io/cv/JamesOramMomentsofmusthave_RS.pdf)
+
+# \faIcon{users}\acvHeaderIconSep\ Conference Presentations
+
+**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2022) "Detangling the Diurideae: Phylogenomics and
+fungal symbionts provide an updated evolutionary framework". Australasian Evolution Society 2022, 14-16
+December 2022.
+
+**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2022) "Detangling the Diurideae: Phylogenomics and
+fungal symbionts provide an updated evolutionary framework". Australasian Systematic Botany Society EMCR
+Conference 2022, 15-16 November 2022.
+
+**O’Donnell RP**, Andrew RL, Telford IR, Wilson TC, Zimmer H, Taseski GM, Bruhl JJ (2021) "Morphological and
+molecular evidence aid resolution of *Prostanthera phylicifolia s. l.* (Lamiaceae)". Australasian Systematic Botany
+Society Annual Conference 2021, 12-16 July 2021. *Runner up: Pauline Ladiges Prize for best student presentation.*
+
+# \faIcon{microphone-alt}\acvHeaderIconSep\ Other Presentations & Panels
+
+[**Presenter:** *'Walks & Talks: Orchids From Australia & Abroad'* 13/08/2022](https://www.instagram.com/p/ChLqF9UuGza)
+
+[**Presenter:** *'Rare Plants - Large and Small' with Costa Georgiadis* 12/05/2021](https://www.facebook.com/CostasWorld/videos/491418699340504/)
+
+**Panelist:** *Reel Science: Plants - Sydney Science Trail/National Science Week* 21/08/2021
+
+# \faIcon{chalkboard-teacher}\acvHeaderIconSep\ Teaching
+## Australian National University
+```{r teaching}
+teaching %>% 
+  brief_entries(glue::glue("\\textbf{<code>}: <title>", .open = "<", .close = ">"), semester, .protect = FALSE)
+```
+
+# \faIcon{award}\acvHeaderIconSep\ Awards & Scholarships
+```{r}
+awards %>% 
+  brief_entries(award, year, .protect = FALSE)
+```
+
+# \faIcon{tv}\acvHeaderIconSep\ Media
+
+[**Radio Interview:** *ABC Radio Evenings with Christine Anu* 21/8/2021](https://soundcloud.app.goo.gl/qHSz4CY8nj2adUtb7)
+
+[**Podcast Interview:** *Royal Botanic Garden Sydney 'Branch Out' Podcast - Starting in Science*](https://www.rbgsyd.nsw.gov.au/Science/Branch-Out/Starting-in-Science)
+
+[**Interview:** *The Music, With Sylvie*](https://rpodonnell.github.io/cv/sylvie_interview_2020.pdf)
+
+[**Interview:** *University of New England, #StudyLifeUNE*](https://www.facebook.com/UniNewEngland/posts/10158232724220926)
+
+# \faIcon{palette}\acvHeaderIconSep\ Exhibitions
+
+2021 [**The Margaret Flockton Award**](https://www.rbgsyd.nsw.gov.au/Science/Botanical-Illustration/The-Margaret-Flockton-Award-21)
+
+# \faIcon{user-plus}\acvHeaderIconSep\ Professional Memberships
+2020–present **Australasian Systematic Botany Society**
