@@ -4,7 +4,6 @@ surname: O'Donnell
 date: "`r format(Sys.time(), '%B, %Y')`"
 position: PhD Student
 address: Research School of Biology, Australian National University
-phone: +61 422 289 005
 email: ryan.odonnell@anu.edu.au
 website: rpodonnell.github.io
 github: rpodonnell
@@ -16,10 +15,12 @@ fontsize: 10
 output:
   vitae::awesomecv:
     keep_tex: true
+    
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
 library(vitae)
 library(ggplot2)
 library(dplyr)
@@ -85,7 +86,7 @@ grants %>%
 
 # \faIcon{book}\acvHeaderIconSep\ Peer-Reviewed Publications
 
-**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (accepted 2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. *Australian Systematic Botany*.
+[**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. *Australian Systematic Botany* 36, 1:1–20. doi:10.1071/SB22017.](https://doi.org/10.1071/SB22017)
 
 [**O’Donnell RP**, Wilson TC, Andrew RL, Telford IR, Taseski GM, Zimmer H, Bruhl JJ (2021) Molecular phylogenetic analysis of the *Prostanthera phylicifolia* (Lamiaceae) assemblage resolves relationships of the ’Critically Endangered’ *P. gilesii* and other putative new species. *Telopea* 24, 359–375. doi:10.7751/telopea15561.](https://openjournals.library.sydney.edu.au/index.php/TEL/article/view/15561)
 
