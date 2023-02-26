@@ -123,6 +123,7 @@ molecular evidence aid resolution of *Prostanthera phylicifolia s. l.* (Lamiacea
 Society Annual Conference 2021, 12-16 July 2021. *Runner up: Pauline Ladiges Prize for best student presentation.*
 
 # \faIcon{microphone-alt}\acvHeaderIconSep\ Other Presentations & Panels
+**Invited Speaker & Panelist:** *'An Evening With 500 Queer Scientists'* World Pride 2023
 
 [**Presenter:** *'Walks & Talks: Orchids From Australia & Abroad'* 13/08/2022](https://www.instagram.com/p/ChLqF9UuGza)
 
@@ -144,6 +145,7 @@ awards %>%
 ```
 
 # \faIcon{tv}\acvHeaderIconSep\ Media
+[**Radio Interview:** *ABC Radio, Science Friction with Natasha Mitchell 'World Pride 2023 - Love Your Nature'* 17/02/2023](https://www.abc.net.au/radionational/programs/sciencefriction/world-pride-queer-science-botany-plants/101948162)
 
 [**Radio Interview:** *ABC Radio Evenings with Christine Anu* 21/8/2021](https://soundcloud.app.goo.gl/qHSz4CY8nj2adUtb7)
 

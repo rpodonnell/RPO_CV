@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.19)  9 FEB 2023 15:57
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.19)  26 FEB 2023 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -843,18 +843,18 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 258.
+(Font)              scaled to size 12.0pt on input line 261.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 258.
+(Font)              scaled to size 12.0pt on input line 261.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 261.
+(Font)              scaled to size 9.0pt on input line 264.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 261.
+t line 264.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 261.
-[2] (./CV_excel_version.aux)
+(Font)              scaled to size 9.0pt on input line 264.
+[2] [3] (./CV_excel_version.aux)
 Package rerunfilecheck Info: File `CV_excel_version.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -865,6 +865,6 @@ Here is how much of TeX's memory you used:
  52999 multiletter control sequences out of 15000+600000
  471990 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,11n,118p,554b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,554b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV_excel_version.pdf (2 pages).
+Output written on CV_excel_version.pdf (3 pages).
