@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.4.1)  30 APR 2023 13:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.8.2)  13 AUG 2023 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,55 +823,61 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 112.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 126.
+(Font)              scaled to size 16.0pt on input line 130.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 126.
+(Font)              scaled to size 16.0pt on input line 130.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 133.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 133.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 133.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 129.
+t line 133.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 133.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 129.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/sc' will be
-(Font)              scaled to size 9.0pt on input line 140.
+(Font)              scaled to size 9.0pt on input line 144.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 174.
+(Font)              scaled to size 10.0pt on input line 178.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 174.
+(Font)              scaled to size 10.0pt on input line 178.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 210.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 210.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 264.
+(Font)              scaled to size 12.0pt on input line 268.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 264.
+(Font)              scaled to size 12.0pt on input line 268.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 267.
+(Font)              scaled to size 9.0pt on input line 271.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 267.
+t line 271.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 267.
+(Font)              scaled to size 9.0pt on input line 271.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 319.
 [2] [3] (./CV_excel_version.aux)
 Package rerunfilecheck Info: File `CV_excel_version.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33133 strings out of 476683
- 668899 string characters out of 5809791
+ 33138 strings out of 478682
+ 669130 string characters out of 5849666
  1884018 words of memory out of 5000000
- 52811 multiletter control sequences out of 15000+600000
- 515018 words of font info for 114 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 114i,12n,118p,554b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52681 multiletter control sequences out of 15000+600000
+ 515034 words of font info for 116 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 114i,12n,118p,554b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CV_excel_version.pdf (3 pages).
