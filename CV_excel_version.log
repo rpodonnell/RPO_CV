@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.8.2)  13 AUG 2023 20:57
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2024.2.1)  24 FEB 2024 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,59 +823,59 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 112.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 130.
+(Font)              scaled to size 16.0pt on input line 129.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 130.
+(Font)              scaled to size 16.0pt on input line 129.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 133.
+(Font)              scaled to size 10.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 133.
+(Font)              scaled to size 10.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 133.
+(Font)              scaled to size 10.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 133.
+t line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 133.
+(Font)              scaled to size 10.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 133.
+(Font)              scaled to size 9.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/sc' will be
-(Font)              scaled to size 9.0pt on input line 144.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 178.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 178.
+(Font)              scaled to size 9.0pt on input line 142.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 210.
+(Font)              scaled to size 12.0pt on input line 169.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 210.
+(Font)              scaled to size 12.0pt on input line 169.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 176.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 176.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 202.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 202.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 202.
 [1
 
 ]
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 268.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 268.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 271.
+(Font)              scaled to size 9.0pt on input line 275.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 271.
+t line 275.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 271.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 319.
+(Font)              scaled to size 9.0pt on input line 275.
 [2] [3] (./CV_excel_version.aux)
 Package rerunfilecheck Info: File `CV_excel_version.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33138 strings out of 478682
- 669130 string characters out of 5849666
+ 33140 strings out of 478682
+ 669155 string characters out of 5849666
  1884018 words of memory out of 5000000
- 52681 multiletter control sequences out of 15000+600000
+ 52683 multiletter control sequences out of 15000+600000
  515034 words of font info for 116 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  114i,12n,118p,554b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s

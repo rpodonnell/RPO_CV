@@ -86,9 +86,15 @@ grants %>%
 
 # \faIcon{book}\acvHeaderIconSep\ Peer-Reviewed Publications
 
+## First-Author
+
 [**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. *Australian Systematic Botany* 36, 1:1–20. doi:10.1071/SB22017.](https://doi.org/10.1071/SB22017)
 
-[**O’Donnell RP**, Wilson TC, Andrew RL, Telford IR, Taseski GM, Zimmer H, Bruhl JJ (2021) Molecular phylogenetic analysis of the *Prostanthera phylicifolia* (Lamiaceae) assemblage resolves relationships of the ’Critically Endangered’ *P. gilesii* and other putative new species. *Telopea* 24, 359–375. doi:10.7751/telopea15561.](https://openjournals.library.sydney.edu.au/index.php/TEL/article/view/15561)
+[**O’Donnell RP**, Wilson TC, Andrew RL, Telford IR, Taseski GM, Zimmer H, Bruhl JJ (2021) Molecular phylogenetic analysis of the *Prostanthera phylicifolia* (Lamiaceae) assemblage resolves relationships of the ’Critically Endangered’ *P. gilesii* and other putative new species. *Telopea* 24, 359–375. doi:10.7751/telopea15561.](https://doi.org/10.7751/telopea15561)
+
+## Co-Author
+
+[Hyde KD ... Zucconi L (2023) Global consortium for the classification of fungi and fungus-like taxa. *Mycosphere* 14, 1:1960–2012. doi:10.5943/mycosphere/14/1/23.](https://www.mycosphere.org/pdf/MYCOSPHERE_14_1_23-1.pdf)
 
 # \faIcon{book-open}\acvHeaderIconSep\ Preprints
 
@@ -110,17 +116,19 @@ grants %>%
 
 # \faIcon{users}\acvHeaderIconSep\ Conference Presentations
 
+**O’Donnell RP**, Linde CC, May TW (2023) "Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales)". Biosystematics 2023, 26–30 November 2023. 
+
 **O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2022) "Detangling the Diurideae: Phylogenomics and
-fungal symbionts provide an updated evolutionary framework". Australasian Evolution Society 2022, 14-16
+fungal symbionts provide an updated evolutionary framework". Australasian Evolution Society 2022, 14–16
 December 2022.
 
 **O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2022) "Detangling the Diurideae: Phylogenomics and
 fungal symbionts provide an updated evolutionary framework". Australasian Systematic Botany Society EMCR
-Conference 2022, 15-16 November 2022.
+Conference 2022, 15–16 November 2022.
 
 **O’Donnell RP**, Andrew RL, Telford IR, Wilson TC, Zimmer H, Taseski GM, Bruhl JJ (2021) "Morphological and
 molecular evidence aid resolution of *Prostanthera phylicifolia s. l.* (Lamiaceae)". Australasian Systematic Botany
-Society Annual Conference 2021, 12-16 July 2021. *Runner up: Pauline Ladiges Prize for best student presentation.*
+Society Annual Conference 2021, 12–16 July 2021. *Runner up: Pauline Ladiges Prize for best student presentation.*
 
 # \faIcon{microphone-alt}\acvHeaderIconSep\ Other Presentations & Panels
 **Invited Speaker & Panelist:** *'An Evening With 500 Queer Scientists'* World Pride 2023
