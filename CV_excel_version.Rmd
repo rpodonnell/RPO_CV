@@ -1,8 +1,8 @@
 ---
 name: Ryan P. 
-surname: O'Donnell
+surname: "O'Donnell"
 date: "`r format(Sys.time(), '%B, %Y')`"
-position: PhD Student
+position: Mycologist & Botanist | PhD Candidate
 address: Research School of Biology, Australian National University
 email: ryan.odonnell@anu.edu.au
 website: rpodonnell.github.io
@@ -96,6 +96,8 @@ grants %>%
 
 [Hyde KD ... Zucconi L (2023) Global consortium for the classification of fungi and fungus-like taxa. *Mycosphere* 14, 1:1960–2012. doi:10.5943/mycosphere/14/1/23.](https://www.mycosphere.org/pdf/MYCOSPHERE_14_1_23-1.pdf)
 
+\pagebreak
+
 # \faIcon{book-open}\acvHeaderIconSep\ Preprints
 
 [**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (accepted 2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. doi:doi.org/10.1101/2021.12.21.473648.](https://doi.org/10.1101/2021.12.21.473648)
@@ -115,6 +117,10 @@ grants %>%
 [**O’Donnell RP** (2012) *James Oram - Moments of Must Have* Exhibition essay - Chalkhorse Gallery](https://rpodonnell.github.io/cv/JamesOramMomentsofmusthave_RS.pdf)
 
 # \faIcon{users}\acvHeaderIconSep\ Conference Presentations
+
+**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2022) "Fungal symbiont shifts inform subtribal relationships in terrestrial orchids". International Mycological Congress 2024, 11–15 August 2024. 
+
+**O’Donnell RP**, Linde CC, May TW (2024) "Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales)" (Poster). International Mycological Congress 2024, 11–15 August 2024. 
 
 **O’Donnell RP**, Linde CC, May TW (2023) "Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales)". Biosystematics 2023, 26–30 November 2023. 
 
@@ -145,7 +151,7 @@ Society Annual Conference 2021, 12–16 July 2021. *Runner up: Pauline Ladiges P
 teaching %>% 
   brief_entries(glue::glue("\\textbf{<code>}: <title>", .open = "<", .close = ">"), semester, .protect = FALSE)
 ```
-
+\pagebreak
 # \faIcon{award}\acvHeaderIconSep\ Awards & Scholarships
 ```{r}
 awards %>% 
@@ -153,6 +159,8 @@ awards %>%
 ```
 
 # \faIcon{tv}\acvHeaderIconSep\ Media
+[**Radio Interview:** *Fuzzy Logic 2XXfm, Live at Floriade 2024* 15/09/2024](https://www.2xxfm.org.au/shows/fuzzy-logic/)
+
 [**Radio Interview:** *ABC Radio, Science Friction with Natasha Mitchell 'World Pride 2023 - Love Your Nature'* 17/02/2023](https://www.abc.net.au/radionational/programs/sciencefriction/world-pride-queer-science-botany-plants/101948162)
 
 [**Radio Interview:** *ABC Radio Evenings with Christine Anu* 21/8/2021](https://soundcloud.app.goo.gl/qHSz4CY8nj2adUtb7)
@@ -168,4 +176,5 @@ awards %>%
 2021 [**The Margaret Flockton Award**](https://www.rbgsyd.nsw.gov.au/Science/Botanical-Illustration/The-Margaret-Flockton-Award-21)
 
 # \faIcon{user-plus}\acvHeaderIconSep\ Professional Memberships
+2023–present **Australasian Mycological Society**
 2020–present **Australasian Systematic Botany Society**
