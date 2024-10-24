@@ -98,6 +98,14 @@ grants %>%
 
 \pagebreak
 
+# \faIcon{book}\acvHeaderIconSep\ Manuscripts In Review 
+
+## First-Author
+
+**O’Donnell RP**, Linde CC, May TW (2024) Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales). *Persoonia*. 
+
+**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2024) Discordance Down Under: Combining phylogenomics & fungal symbioses to detangle difficult nodes in a diverse tribe of Australian terrestrial orchids. *Systematic Biology*. 
+
 # \faIcon{book-open}\acvHeaderIconSep\ Preprints
 
 [**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (accepted 2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. doi:doi.org/10.1101/2021.12.21.473648.](https://doi.org/10.1101/2021.12.21.473648)
@@ -118,7 +126,7 @@ grants %>%
 
 # \faIcon{users}\acvHeaderIconSep\ Conference Presentations
 
-**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2022) "Fungal symbiont shifts inform subtribal relationships in terrestrial orchids". International Mycological Congress 2024, 11–15 August 2024. 
+**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2024) "Fungal symbiont shifts inform subtribal relationships in terrestrial orchids". International Mycological Congress 2024, 11–15 August 2024. 
 
 **O’Donnell RP**, Linde CC, May TW (2024) "Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales)" (Poster). International Mycological Congress 2024, 11–15 August 2024. 
 
@@ -176,5 +184,5 @@ awards %>%
 2021 [**The Margaret Flockton Award**](https://www.rbgsyd.nsw.gov.au/Science/Botanical-Illustration/The-Margaret-Flockton-Award-21)
 
 # \faIcon{user-plus}\acvHeaderIconSep\ Professional Memberships
-2023–present **Australasian Mycological Society**
+2023–present **Australasian Mycological Society** \
 2020–present **Australasian Systematic Botany Society**
