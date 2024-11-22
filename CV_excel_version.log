@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.23)  24 OCT 2024 11:39
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.23)  22 NOV 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,25 +1032,28 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 163.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 170.
+(Font)              scaled to size 10.0pt on input line 165.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 170.
+(Font)              scaled to size 10.0pt on input line 166.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 187.
+(Font)              scaled to size 8.0pt on input line 185.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 187.
+(Font)              scaled to size 8.0pt on input line 185.
 [1
 
 ]
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 302.
+[2]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 294.
+(Font)              scaled to size 9.0pt on input line 305.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 294.
+t line 305.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 294.
-[2] [3] (./CV_excel_version.aux)
+(Font)              scaled to size 9.0pt on input line 305.
+[3] (./CV_excel_version.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1059,10 +1062,10 @@ Package rerunfilecheck Info: File `CV_excel_version.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34496 strings out of 474773
- 691581 string characters out of 5757723
- 1960839 words of memory out of 5000000
- 56033 multiletter control sequences out of 15000+600000
+ 34498 strings out of 474773
+ 691613 string characters out of 5757723
+ 1961839 words of memory out of 5000000
+ 56034 multiletter control sequences out of 15000+600000
  560922 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  116i,12n,121p,554b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
