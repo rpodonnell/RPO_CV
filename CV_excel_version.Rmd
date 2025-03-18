@@ -88,6 +88,8 @@ grants %>%
 
 ## First-Author
 
+**O’Donnell RP**, Linde CC, May TW (in press) Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales). *Persoonia*. 
+
 [**O’Donnell RP**, Wong DJ, Peakall R, Phillips RD, Linde CC (2024) *Discordance Down Under*: Combining phylogenomics & fungal symbioses to detangle difficult nodes in a diverse tribe of Australian terrestrial orchids. *Systematic Biology*, syae070. doi:10.1093/sysbio/syae070.](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syae070/7918489?utm_source=authortollfreelink&utm_campaign=sysbio&utm_medium=email&guestAccessKey=18bacc24-7f10-439a-94f4-3030811184af) 
 
 [**O’Donnell RP**, Bruhl JJ, Telford IR, Wilson TC, Zimmer H, Taseski GM, Andrew RL (2023) Molecular and morphological analyses support recognition of *Prostanthera volucris* (Lamiaceae), a new species from the Central Tablelands of New South Wales. *Australian Systematic Botany* 36, 1:1–20. doi:10.1071/SB22017.](https://doi.org/10.1071/SB22017)
@@ -106,7 +108,9 @@ grants %>%
 
 ## First-Author
 
-**O’Donnell RP**, Linde CC, May TW (2024) Rise up, *Rhizoctonia*: moving to one fungus, one name in the Ceratobasidiaceae (Agaricomycetes; Cantharellales). *Persoonia* - revision submitted December 2024. 
+John EG$^†$, **O’Donnell RP**$^†$, Perkins J, Rubial M, Peakall R, Wong DCJ (under review - Molecular Biology and Evolution) Once in a blue moon: phylotranscriptomics reveals the unusual genetic basis of blue floral colour in the terrestrial orchid subtribe Caladeniinae (Diurideae; Orchidaceae).
+
+$^†$Shared co-first authors.
 
 # \faIcon{book-open}\acvHeaderIconSep\ Preprints
 
@@ -145,6 +149,9 @@ molecular evidence aid resolution of *Prostanthera phylicifolia s. l.* (Lamiacea
 Society Annual Conference 2021, 12–16 July 2021. *Runner up: Pauline Ladiges Prize for best student presentation.*
 
 # \faIcon{microphone-alt}\acvHeaderIconSep\ Other Presentations & Panels
+
+**Panelist:** *Magic Mycelium* Bundanon Art Museum 09/03/2025
+
 **Invited Speaker:** '*Discordance Down Under*: Combining phylogenomics & fungal symbioses to detangle difficult nodes in a diverse tribe of Australian terrestrial orchids' Australasian Mycological Society (AMS) Virtual Seminar Series 31/10/2024
 
 **Invited Speaker & Panelist:** *'An Evening With 500 Queer Scientists'* World Pride 2023
